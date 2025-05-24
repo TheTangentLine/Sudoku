@@ -5,7 +5,7 @@ This is my first full-stack project and also my first time uploading a project t
 ## Features
 - **Frontend**: Built with React and TypeScript, using Vite as the build tool.
 - **Backend**: Powered by Java Spring Boot (Maven), responsible for generating random Sudoku boards and validating whether a board is solved correctly.
-- **User Interface**: Simple, clean, and easy-to-use Sudoku board interface. But is not respon
+- **User Interface**: Simple, clean, and easy-to-use Sudoku board interface. But is not responsive
 - **Validation**: Provides immediate feedback on whether the user's board solution is correct.
 
 ## Frontend (React + TypeScript)
