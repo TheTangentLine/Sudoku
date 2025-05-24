@@ -1,0 +1,16 @@
+.timer {
+    align-self: center;
+    /* flush under the back button */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-family: 'Roboto', monospace;
+    font-weight: normal;
+    font-size: 2.3vw;
+}
+
+.timer text {
+    font-size: 40px;
+    color: #000;
+}

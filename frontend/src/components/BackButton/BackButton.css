@@ -1,0 +1,13 @@
+.back-button {
+    display: inline-block;
+    color: black;
+    font-size: 5vw;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.back-button:hover {
+    transform: scale(1.3);
+}

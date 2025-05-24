@@ -1,0 +1,19 @@
+.check-content {
+    margin-top: -7vh;
+}
+
+.correct-cell {
+    background-color: #74ff79 !important;
+    /* light green */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.incorrect-cell {
+    background-color: #f69a9a !important;
+    /* light red */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}

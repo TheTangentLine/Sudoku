@@ -1,0 +1,96 @@
+.scoreboard-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.best-results {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.result h1 {
+    font-family: 'Roboto', monospace;
+    font-weight: bold;
+    font-size: 10vh;
+    text-align: center;
+    align-items: center;
+    margin-top: 10vh;
+
+    padding-bottom: 1vh;
+}
+
+.label-button,
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 4.5vh;
+    letter-spacing: 4px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 20vw;
+    height: 13vh;
+    background: #e5e5e5;
+}
+
+.current {
+    color: #474141;
+    background: #d7ff0de4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.highest {
+    color: #FFFFFF;
+    background: #e8a107;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3rem;
+    padding-top: 10vh;
+}
+
+.controls .control_button {
+    color: black;
+    font-size: 8vh;
+    transition: 0.3s ease;
+}
+
+.controls .control_button:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.correct {
+    background-color: #28a745;
+    /* Green for correct */
+    color: white;
+}
+
+.incorrect {
+    background-color: #dc3545;
+    /* Red for incorrect */
+    color: white;
+}

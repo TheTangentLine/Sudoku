@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.title {
+    font-family: 'Roboto', monospace;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.title h3 {
+    font-size: 2vw;
+    text-align: right;
+    width: 100%;
+    padding-bottom: 3%;
+    padding-right: 14vw;
+}
+
+.playButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    background-color: #FFAA00;
+    border-radius: 20px;
+    height: 6vw;
+    width: 20vw;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.playButton:hover {
+    background-color: #FF8C00;
+    transform: scale(1.2);
+}

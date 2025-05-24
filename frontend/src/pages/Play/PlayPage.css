@@ -1,0 +1,176 @@
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.left-panel .game-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.left-panel p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.sudoku-board {
+    border-collapse: collapse;
+    background: #ffffff;
+    margin: 20px auto;
+}
+
+.sudoku-board td {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.sudoku-board td input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.sudoku-board tr:nth-child(3n) td {
+    border-bottom: 3px solid black;
+}
+
+.sudoku-board td:nth-child(3n) {
+    border-right: 3px solid black;
+}
+
+.sudoku-board tr:first-child td {
+    border-top: 3px solid black;
+}
+
+.sudoku-board td:first-child {
+    border-left: 3px solid black;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    padding: 20px;
+}
+
+
+.reload {
+    font-size: 6vh;
+    border: none;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.reload:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.submit {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 4vh;
+    letter-spacing: 4px;
+
+    background-color: #FFAA00;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    background-color: #FF8C00;
+}
+
+.timer {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button {
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-panel {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .board-container {
+        width: 90%;
+    }
+
+    .submit-btn {
+        right: 20px;
+    }
+}
+
+/* When the game is paused, apply a blur effect */
+.game-container.paused .board-container {
+    filter: blur(10px);
+}
+
+
+/* Optionally, you can also dim the board or make other visual changes when paused */
+.game-container.paused {
+    opacity: 1;
+    /* Optional: makes the game container slightly transparent */
+}
+
+
+/* Apply a background color to fixed cells */
+input.fixed-cell {
+    background-color: #ffeaa4 !important;
+    /* Ensure background color is applied */
+    color: #141414 !important;
+    /* Lighter text color */
+    font-weight: bold !important;
+    /* Optional: makes the text bold */
+}

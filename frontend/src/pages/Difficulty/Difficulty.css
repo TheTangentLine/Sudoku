@@ -1,0 +1,45 @@
+.difficulty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose-difficulty {
+    padding-bottom: 3em;
+}
+
+.choose-difficulty h1 {
+    font-size: 5em;
+}
+
+.difficult {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+
+    width: 24vw;
+    height: 12vh;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.difficult:hover {
+    transform: scale(1.2);
+}
+
+.easy {
+    background-color: #049312;
+}
+
+.medium {
+    background-color: #D1B909;
+}
+
+.hard {
+    background-color: #C20909;
+}
