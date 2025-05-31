@@ -38,7 +38,7 @@ To get started with the frontend, follow these steps:
     ```bash
     npm run dev
     ```
-    This will start the React app at [http://localhost:3000](http://localhost:3000).
+    This will start the React app at [http://localhost:5173](http://localhost:5173).
 
 ## Backend (Java Spring Boot)
 The backend is a simple Spring Boot application that provides two key endpoints:
