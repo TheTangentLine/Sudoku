@@ -1,11 +1,11 @@
 # Sudoku Game
 
-This is my first full-stack project and also my first time uploading a project to Github. I built this Sudoku game to practice working with a modern tech stack and to get hands-on experience managing a project from end to end.
+This is my first end to end project and also my first time uploading a project to Github. I built this Sudoku game to practice working with a modern tech stack and to get hands-on experience managing a project from end to end.
 
 ## Features
 - **Frontend**: Built with React and TypeScript, using Vite as the build tool.
 - **Backend**: Powered by Java Spring Boot (Maven), responsible for generating random Sudoku boards and validating whether a board is solved correctly.
-- **User Interface**: Simple, clean, and easy-to-use Sudoku board interface. But is not responsive
+- **User Interface**: Simple, clean, and easy-to-use Sudoku board interface. But it is not responsive for all devices.
 - **Validation**: Provides immediate feedback on whether the user's board solution is correct.
 
 ## Frontend (React + TypeScript)
