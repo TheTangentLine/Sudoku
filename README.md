@@ -1,6 +1,6 @@
 # Sudoku Game
 
-This is my first end to end project and also my first time uploading a project to Github. I built this Sudoku game to practice working with a modern tech stack and to get hands-on experience managing a project from end to end.
+ This is my first end to end project and also my first time uploading a project to Github. I built this Sudoku game to practice working with a modern tech stack and to get hands-on experience managing a project from end to end.
 
 ## Features
 - **Frontend**: Built with React and TypeScript, using Vite as the build tool.
